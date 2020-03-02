@@ -1,0 +1,29 @@
+#   Übersetzt von Grabenkind
+#   Bei Rechtschreibfehlern bitte kontaktieren
+#   Kontakt: grabenkind@gmail.com
+#   
+#   Dieses Plugin wird von kyngs entwickelt!
+#   Alle Fehler die keine Rechtschreibfehler sind,
+#   müssen dem Entwickler selbst berichtet werden.
+
+#This is the German preset.
+#Please don't manipulate with this unless you know what you're doing!
+code_create_error: "&cFehler beim Erstellen des Codes!" #Unexpected error while creating code.
+code_already_exists: "&cDieser Code existiert bereits!" #Error while creating code, because code already exists.
+only_player_command: "&cNur Spieler können diesen Befehl ausführen!" #Happens when console/command block tries to execute player-only command.
+code_created: "&aCode erfolgreich erstellt!" #Happens when code is successfully created.
+wrong_code: "&cFalscher Code!" #Happens when someone enters wrong code.
+command_dispatch_warning: "&lDer nächste Befehl wird vom Plugin PromoCodes gesendet!" #Happens when this plugin dispatches command to console.
+code_used: "&cDu hast diesen Code bereits verwendet!" #Happens when someone tries to use code twice.
+code_redeem_error: "&cFehler beim Einlösen des Codes!" #Unexpected error while redeeming code.
+code_redeemed: "&aCode eingelöst!" #Happens when someone successfully redeems code.
+code_redeem_whitelist: "&cDu stehst nicht auf der Whitelist für diesen Code!" #Coming soon!
+no_permission: "&cDu hast keine Erlaubnis, diese Aktion durchzuführen!" #Happens while sender has insufficient permissions.
+code_delete_error: "&cFehler beim Löschen des Codes!" #Unexpected error while deleting code.
+creating_backup: "Backup erstellt für den Fall, dass etwas schief geht!" #Shows when backup is being created.
+created_backup: "&aBackup erstellt!" #Shows when backup creates.
+code_doesnt_exist: "&cDieser Code existiert nicht!" #Shows when someone tries delete invalid code.
+code_deleted: "&aCode erfolgreich gelöscht!" #Shows when code is successfully deleted.
+code_create_wrong_usage: "&cFalsche Verwendung! Verwendung: /createcode <name> <item_reward> <count_of_item_reward> <eco give>" #Happens when someone uses /createcode wrong!
+code_delete_wrong_usage: "&cFalsche Verwendung! Verwendung: /deletecode <name>" #Happens when someone uses /deletecode wrong!
+code_redeem_wrong_usage: "&cFalsche Verwendung! Verwendung: /redeemcode <name>" #Happens when someone uses /redeemcode wrong!
