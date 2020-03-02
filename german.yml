@@ -20,7 +20,7 @@ code_redeemed: "&aCode eingelöst!" #Happens when someone successfully redeems c
 code_redeem_whitelist: "&cDu stehst nicht auf der Whitelist für diesen Code!" #Coming soon!
 no_permission: "&cDu hast keine Erlaubnis, diese Aktion durchzuführen!" #Happens while sender has insufficient permissions.
 code_delete_error: "&cFehler beim Löschen des Codes!" #Unexpected error while deleting code.
-creating_backup: "Backup erstellt für den Fall, dass etwas schief geht!" #Shows when backup is being created.
+creating_backup: "Backup erstellt, für den Fall, dass etwas schief geht!" #Shows when backup is being created.
 created_backup: "&aBackup erstellt!" #Shows when backup creates.
 code_doesnt_exist: "&cDieser Code existiert nicht!" #Shows when someone tries delete invalid code.
 code_deleted: "&aCode erfolgreich gelöscht!" #Shows when code is successfully deleted.
