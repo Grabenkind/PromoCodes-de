@@ -8,6 +8,8 @@
 
 #This is the German preset.
 #Please don't manipulate with this unless you know what you're doing!
+#Credits to: Grabenkind Thanks for help!
+prefix: "&6[PromoCodes] >> "
 code_create_error: "&cFehler beim Erstellen des Codes!" #Unexpected error while creating code.
 code_already_exists: "&cDieser Code existiert bereits!" #Error while creating code, because code already exists.
 only_player_command: "&cNur Spieler können diesen Befehl ausführen!" #Happens when console/command block tries to execute player-only command.
@@ -24,6 +26,34 @@ creating_backup: "Backup erstellt, für den Fall, dass etwas schief geht!" #Show
 created_backup: "&aBackup erstellt!" #Shows when backup creates.
 code_doesnt_exist: "&cDieser Code existiert nicht!" #Shows when someone tries delete invalid code.
 code_deleted: "&aCode erfolgreich gelöscht!" #Shows when code is successfully deleted.
-code_create_wrong_usage: "&cFalsche Verwendung! Verwendung: /createcode <name> <item_reward> <count_of_item_reward> <eco give>" #Happens when someone uses /createcode wrong!
+code_create_wrong_usage: "&cFalsche Verwendung! Verwendung: /createcode <name> <item_reward> <count_of_item_reward> <eco give> <whitelist(true or false)>" #Happens when someone uses /createcode wrong!
 code_delete_wrong_usage: "&cFalsche Verwendung! Verwendung: /deletecode <name>" #Happens when someone uses /deletecode wrong!
 code_redeem_wrong_usage: "&cFalsche Verwendung! Verwendung: /redeemcode <name>" #Happens when someone uses /redeemcode wrong!
+code_admin_wrong_usage: "&cFalsche Verwendung! Verwendung: /codeadmin help für Hilfe." #Happens when someone uses /codeadmin wrong!
+code_admin_help_1: "PromoCodes %version% Admin Hilfe:" #First line of admin help.  #%version% returns plugin version.
+code_admin_help_2: "/codeadmin update Aktualisiert Dateien für den Fall, dass du Dateien aus der alten Version verwendest!" #2nd line of codeadmin help.
+code_admin_help_3: "/codeadmin help Das was du gerade siehst." #3rd line of codeadmin help.
+code_admin_help_4: "/codeadmin about Zeigt Informationen über deinen Build." #4th line of codeadmin help.
+code_admin_help_5: "/codeadmin reload Lädt das Plugin neu." #5th line of codeadmin help.
+code_admin_help_6: "/codeadmin code list Zeigt eine Liste aller Codes." #6th line of codeadmin help.
+code_admin_help_7: "/codeadmin code <code> info Zeigt Informationen über den ausgewählten Code an." #7th line of codeadmin help.
+code_admin_help_8: "/codeadmin code <code> players add <player> Spieler vom ausgewählten Code hinzufügen." #8th line of codeadmin help.
+code_admin_help_9: "/codeadmin code <code> players remove <player> Entfernt den Spieler vom ausgewählten Code." #9th line of codeadmin help.
+code_admin_list: "Liste der Codes:" #Happens when someone executes /codeadmin code list
+code_admin_update_no_need: "&aKein Grund zur Aktualisierung! Weil du die neuesten Dateien verwendest!" #Error when someone tries to update up to date files.
+code_admin_about_1: "PromoCodes Plugin" #1st line of /codeadmin about.
+code_admin_about_2: "Autor: kyngs" #2nd line of /codeadmin about.
+code_admin_about_3: "Version: %version%" #3rd line of /codeadmin about.
+code_admin_about_4: "Build Datum: %date%" #4th line of /codeadmin about.
+code_admin_code_players_add: "&a%player% in die Code Datei eingefügt!" #Happens when someone is added into the code file. Useful when adding into whitelist.
+code_admin_code_players_remove: "&a%player% aus der Code Datei entfernt!" #Happens when someone is added into the code file. Useful when removing from whitelist.
+code_admin_code_info_1: "Informationen über %code%" #1st line of /codeadmin code <code> info .
+code_admin_code_info_2: "Belohnung: %reward%" #2nd line of /codeadmin code <code> info .
+code_admin_code_info_3: "Anzahl: %count%" #3rd line of /codeadmin code <code> info .
+code_admin_code_info_4: "Geld: %money%" #4th line of /codeadmin code <code> info .
+code_admin_code_info_5: "Whitelist: %value%" #5th line of /codeadmin code <code> info .
+code_admin_reload_1: "Nachladen des Plugins in 5 Sekunden!" #Happens when someone uses /codeadmin reload .
+code_admin_disabling: "Plugin deaktivieren!" #Happens when someone uses /codeadmin reload .
+code_admin_enabling: "Plugin aktivieren" #Happens when someone uses /codeadmin reload .
+code_admin_reloaded: "Plugin erfolgreich neu geladen!" #Happens when someone uses /codeadmin reload .
+code_redeem_bad_world: "&cDu kannst diesen Code in dieser Welt nicht verwenden!" #Happens when someone tries to use code that is not listed in config.
